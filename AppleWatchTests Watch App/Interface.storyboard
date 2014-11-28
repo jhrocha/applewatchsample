@@ -68,7 +68,7 @@
             <objects>
                 <controller id="RvV-bn-OtW">
                     <items>
-                        <label alignment="left" text="Label 1" id="tB5-UM-H2V"/>
+                        <label alignment="center" text="Label 1" id="tB5-UM-H2V"/>
                     </items>
                     <color key="backgroundColor" red="0.25490196079999999" green="0.70196078429999997" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
@@ -90,7 +90,7 @@
             <objects>
                 <controller id="G4o-u9-FQ0">
                     <items>
-                        <label alignment="left" text="Label 2" id="VzT-Di-JRX"/>
+                        <label alignment="center" text="Label 2" id="VzT-Di-JRX"/>
                     </items>
                     <color key="backgroundColor" red="0.76130226190000005" green="0.88047795770000004" blue="0.99998110529999995" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
@@ -105,7 +105,7 @@
             <objects>
                 <controller id="Gov-IH-QJO">
                     <items>
-                        <label alignment="left" text="Label 3" textAlignment="left" id="jS4-Ra-cBI"/>
+                        <label alignment="center" text="Label 3" textAlignment="left" id="jS4-Ra-cBI"/>
                     </items>
                     <color key="backgroundColor" red="0.31372549020000001" green="0.82745098039999998" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>

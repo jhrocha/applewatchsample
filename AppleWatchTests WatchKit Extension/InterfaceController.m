@@ -54,8 +54,13 @@
         
         [row.menuTitle setText: self.menuList.allKeys[i] ];
         [row.menuThumb setImage:[UIImage imageNamed:self.menuList[self.menuList.allKeys[i]]]];
-
     }
+    
+}
+
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex{
+    
+    NSLog(@"Row selected %i",rowIndex);
     
 }
 
