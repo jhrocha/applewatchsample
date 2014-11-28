@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>90463290-E016-4ECA-9727-2513170FF45A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppleWatchTests</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9BAF7F720983BDDE4AF5194F8DC07B8FA22409B9</key>
+		<string>https://github.com/jhrocha/applewatchsample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppleWatchTests.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9BAF7F720983BDDE4AF5194F8DC07B8FA22409B9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jhrocha/applewatchsample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9BAF7F720983BDDE4AF5194F8DC07B8FA22409B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9BAF7F720983BDDE4AF5194F8DC07B8FA22409B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppleWatchTests</string>
+		</dict>
+	</array>
+</dict>
+</plist>

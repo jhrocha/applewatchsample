@@ -32,6 +32,7 @@
 }
 
 - (void)willActivate {
+    
     // This method is called when watch view controller is about to be visible to user
     NSLog(@"%@ will activate", self);
 
@@ -45,19 +46,15 @@
 
 - (void)loadTable{
     
-    
     [self.tableMenu setNumberOfRows:self.menuList.allKeys.count withRowType:@"default"];
     
     for (int i=0; i<self.menuList.count; i++) {
         
         MainMenuRow *row = [self.tableMenu rowControllerAtIndex:i];
         
-        NSLog(@"%@",self.menuList[self.menuList.allKeys[i]]);
-        
         [row.menuTitle setText: self.menuList.allKeys[i] ];
         [row.menuThumb setImage:[UIImage imageNamed:self.menuList[self.menuList.allKeys[i]]]];
 
-        
     }
     
 }
