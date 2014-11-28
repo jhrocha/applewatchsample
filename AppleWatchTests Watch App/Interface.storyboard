@@ -40,12 +40,21 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--Interface Controller-->
+        <!--detailMain-->
         <scene sceneID="4AJ-DC-V2Q">
             <objects>
-                <controller id="cSq-ps-GSe"/>
+                <controller identifier="detailMain" id="cSq-ps-GSe" customClass="MainMenuDetailController">
+                    <items>
+                        <label width="136" alignment="left" text="Label" textAlignment="center" id="pez-zB-nne"/>
+                        <imageView width="37" height="32" alignment="center" verticalAlignment="center" id="efz-dd-KTV"/>
+                    </items>
+                    <connections>
+                        <outlet property="detailImage" destination="efz-dd-KTV" id="eW8-c4-GuR"/>
+                        <outlet property="detailTitle" destination="pez-zB-nne" id="Gc0-g9-xgr"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="373" y="345"/>
+            <point key="canvasLocation" x="468" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -63,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="220" y="643"/>
         </scene>
-        <!--Interface Controller-->
+        <!--paged-->
         <scene sceneID="u1u-t9-9Mm">
             <objects>
-                <controller id="RvV-bn-OtW">
+                <controller identifier="paged" id="RvV-bn-OtW">
                     <items>
                         <label alignment="center" text="Label 1" id="tB5-UM-H2V"/>
                     </items>

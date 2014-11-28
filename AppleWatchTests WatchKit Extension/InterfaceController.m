@@ -8,6 +8,8 @@
 
 #import "InterfaceController.h"
 #import "MainMenuRow.h"
+#import "MainDetail.h"
+#import "MainMenuDetailController.h"
 
 @interface InterfaceController()
 @property (weak, nonatomic) IBOutlet WKInterfaceTable *tableMenu;
@@ -22,10 +24,9 @@
     self = [super initWithContext:context];
 
     if (self){
+        
         // Initialize variables here.
         // Configure interface objects here.
-        
-        
         self.menuList = @{@"Cronometer":@"clock",@"Weather":@"summer",@"Surf":@"surf"};
     }
     return self;
@@ -58,11 +59,18 @@
     
 }
 
+//To active this method, just remove push segue on storyboard
 - (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex{
+
+    MainDetail *detail = [MainDetail new];
     
-    NSLog(@"Row selected %i",rowIndex);
+    detail.title = self.menuList.allKeys[rowIndex];
+    detail.thumb = [UIImage imageNamed:self.menuList[self.menuList.allKeys[rowIndex]]];
     
+    [self pushControllerWithName:@"detailMain" context:detail];
 }
+
+
 
 @end
 
