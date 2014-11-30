@@ -15,7 +15,6 @@
 @interface InterfaceController()
 @property (weak, nonatomic) IBOutlet WKInterfaceTable *tableMenu;
 @property NSDictionary *menuList;
-
 @end
 
 

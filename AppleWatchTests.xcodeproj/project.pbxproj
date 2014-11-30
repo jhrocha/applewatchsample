@@ -26,6 +26,7 @@
 		D045CF4F1A2850B100F2E0F5 /* MainMenuDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D045CF4E1A2850B100F2E0F5 /* MainMenuDetailController.m */; };
 		D04ECDD71A2AE0DA0012FDC2 /* WeatherDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D04ECDD61A2AE0DA0012FDC2 /* WeatherDataSource.m */; };
 		D04ECDD81A2AE2D90012FDC2 /* WeatherDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D04ECDD61A2AE0DA0012FDC2 /* WeatherDataSource.m */; };
+		D04ECDDC1A2AE8340012FDC2 /* WeatherNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04ECDDB1A2AE8340012FDC2 /* WeatherNotificationController.m */; };
 		D075A6C71A22FCA00086521B /* MainMenuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D075A6C61A22FCA00086521B /* MainMenuRow.m */; };
 		D0E7138C1A23059E0098D21E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D043EEAB1A22FA6000D75AC7 /* Interface.storyboard */; };
 		D0E7138D1A23082C0098D21E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D043EEA01A22FA5F00D75AC7 /* Images.xcassets */; };
@@ -105,6 +106,8 @@
 		D045CF4E1A2850B100F2E0F5 /* MainMenuDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuDetailController.m; path = "Controllers/Detail main menu/MainMenuDetailController.m"; sourceTree = "<group>"; };
 		D04ECDD51A2AE0DA0012FDC2 /* WeatherDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherDataSource.h; path = DataSource/Weather/WeatherDataSource.h; sourceTree = "<group>"; };
 		D04ECDD61A2AE0DA0012FDC2 /* WeatherDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherDataSource.m; path = DataSource/Weather/WeatherDataSource.m; sourceTree = "<group>"; };
+		D04ECDDA1A2AE8340012FDC2 /* WeatherNotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherNotificationController.h; path = "Controllers/Weather notification/WeatherNotificationController.h"; sourceTree = "<group>"; };
+		D04ECDDB1A2AE8340012FDC2 /* WeatherNotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherNotificationController.m; path = "Controllers/Weather notification/WeatherNotificationController.m"; sourceTree = "<group>"; };
 		D075A6C51A22FCA00086521B /* MainMenuRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuRow.h; path = "Main menu/Model/MainMenuRow.h"; sourceTree = "<group>"; };
 		D075A6C61A22FCA00086521B /* MainMenuRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuRow.m; path = "Main menu/Model/MainMenuRow.m"; sourceTree = "<group>"; };
 		EA69C850EF022517B60D6670 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -305,6 +308,15 @@
 			name = "Data source";
 			sourceTree = "<group>";
 		};
+		D04ECDD91A2AE7A20012FDC2 /* Weather notification (glance) */ = {
+			isa = PBXGroup;
+			children = (
+				D04ECDDA1A2AE8340012FDC2 /* WeatherNotificationController.h */,
+				D04ECDDB1A2AE8340012FDC2 /* WeatherNotificationController.m */,
+			);
+			name = "Weather notification (glance)";
+			sourceTree = "<group>";
+		};
 		D075A6C81A22FCA80086521B /* Main menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +338,7 @@
 		D075A6CA1A22FCE60086521B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D04ECDD91A2AE7A20012FDC2 /* Weather notification (glance) */,
 				D045CF4C1A28505E00F2E0F5 /* Detail main menu */,
 				D045CF4B1A28505300F2E0F5 /* Main menu */,
 			);
@@ -553,6 +566,7 @@
 				D04ECDD81A2AE2D90012FDC2 /* WeatherDataSource.m in Sources */,
 				D043EE9F1A22FA5F00D75AC7 /* NotificationController.m in Sources */,
 				D045CF4F1A2850B100F2E0F5 /* MainMenuDetailController.m in Sources */,
+				D04ECDDC1A2AE8340012FDC2 /* WeatherNotificationController.m in Sources */,
 				D0398BCE1A285A6D00CDDB9E /* MainDetail.m in Sources */,
 				D043EE9C1A22FA5F00D75AC7 /* InterfaceController.m in Sources */,
 			);
