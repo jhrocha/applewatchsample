@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8074EC4835BE9383ECC0212E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE60DE8E1A211D0C80DE8140 /* libPods.a */; };
+		D011CAF91A2BCC3A00F2C9CC /* GroupMenuInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D011CAF81A2BCC3A00F2C9CC /* GroupMenuInterfaceController.m */; };
 		D0398BCE1A285A6D00CDDB9E /* MainDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = D0398BCD1A285A6D00CDDB9E /* MainDetail.m */; };
 		D043EE6B1A22FA4000D75AC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D043EE6A1A22FA4000D75AC7 /* main.m */; };
 		D043EE6E1A22FA4000D75AC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D043EE6D1A22FA4000D75AC7 /* AppDelegate.m */; };
@@ -74,6 +75,8 @@
 /* Begin PBXFileReference section */
 		AE60DE8E1A211D0C80DE8140 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCD8F2D6F66FD6FE10A9F33 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D011CAF71A2BCC3A00F2C9CC /* GroupMenuInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupMenuInterfaceController.h; path = "Controllers/Group menu/GroupMenuInterfaceController.h"; sourceTree = "<group>"; };
+		D011CAF81A2BCC3A00F2C9CC /* GroupMenuInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupMenuInterfaceController.m; path = "Controllers/Group menu/GroupMenuInterfaceController.m"; sourceTree = "<group>"; };
 		D0398BCC1A285A6D00CDDB9E /* MainDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainDetail.h; path = "Main menu/Model/Main detail/MainDetail.h"; sourceTree = "<group>"; };
 		D0398BCD1A285A6D00CDDB9E /* MainDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainDetail.m; path = "Main menu/Model/Main detail/MainDetail.m"; sourceTree = "<group>"; };
 		D043EE651A22FA4000D75AC7 /* AppleWatchTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +150,15 @@
 				EA69C850EF022517B60D6670 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D011CAF61A2BCC1400F2C9CC /* Group menu */ = {
+			isa = PBXGroup;
+			children = (
+				D011CAF71A2BCC3A00F2C9CC /* GroupMenuInterfaceController.h */,
+				D011CAF81A2BCC3A00F2C9CC /* GroupMenuInterfaceController.m */,
+			);
+			name = "Group menu";
 			sourceTree = "<group>";
 		};
 		D0398BCB1A285A2E00CDDB9E /* Main detail */ = {
@@ -338,9 +350,10 @@
 		D075A6CA1A22FCE60086521B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D04ECDD91A2AE7A20012FDC2 /* Weather notification (glance) */,
-				D045CF4C1A28505E00F2E0F5 /* Detail main menu */,
+				D011CAF61A2BCC1400F2C9CC /* Group menu */,
 				D045CF4B1A28505300F2E0F5 /* Main menu */,
+				D045CF4C1A28505E00F2E0F5 /* Detail main menu */,
+				D04ECDD91A2AE7A20012FDC2 /* Weather notification (glance) */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -562,6 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D011CAF91A2BCC3A00F2C9CC /* GroupMenuInterfaceController.m in Sources */,
 				D075A6C71A22FCA00086521B /* MainMenuRow.m in Sources */,
 				D04ECDD81A2AE2D90012FDC2 /* WeatherDataSource.m in Sources */,
 				D043EE9F1A22FA5F00D75AC7 /* NotificationController.m in Sources */,
