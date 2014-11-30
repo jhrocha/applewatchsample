@@ -10,6 +10,7 @@
 #import "MainMenuRow.h"
 #import "MainDetail.h"
 #import "MainMenuDetailController.h"
+#import "WeatherDataSource.h"
 
 @interface InterfaceController()
 @property (weak, nonatomic) IBOutlet WKInterfaceTable *tableMenu;
@@ -28,6 +29,9 @@
         // Initialize variables here.
         // Configure interface objects here.
         self.menuList = @{@"Cronometer":@"clock",@"Weather":@"summer",@"Surf":@"surf"};
+        
+        NSLog(@"ALL VALUES -> %@",[[WeatherDataSource new] cities]);
+        
     }
     return self;
 }
@@ -55,6 +59,7 @@
         
         [row.menuTitle setText: self.menuList.allKeys[i] ];
         [row.menuThumb setImage:[UIImage imageNamed:self.menuList[self.menuList.allKeys[i]]]];
+    
     }
     
 }

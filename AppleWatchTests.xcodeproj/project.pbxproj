@@ -24,6 +24,8 @@
 		D043EEAE1A22FA6000D75AC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D043EEAD1A22FA6000D75AC7 /* Images.xcassets */; };
 		D043EEB11A22FA6000D75AC7 /* AppleWatchTests WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D043EE921A22FA5F00D75AC7 /* AppleWatchTests WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D045CF4F1A2850B100F2E0F5 /* MainMenuDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D045CF4E1A2850B100F2E0F5 /* MainMenuDetailController.m */; };
+		D04ECDD71A2AE0DA0012FDC2 /* WeatherDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D04ECDD61A2AE0DA0012FDC2 /* WeatherDataSource.m */; };
+		D04ECDD81A2AE2D90012FDC2 /* WeatherDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D04ECDD61A2AE0DA0012FDC2 /* WeatherDataSource.m */; };
 		D075A6C71A22FCA00086521B /* MainMenuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D075A6C61A22FCA00086521B /* MainMenuRow.m */; };
 		D0E7138C1A23059E0098D21E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D043EEAB1A22FA6000D75AC7 /* Interface.storyboard */; };
 		D0E7138D1A23082C0098D21E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D043EEA01A22FA5F00D75AC7 /* Images.xcassets */; };
@@ -101,6 +103,8 @@
 		D043EEAD1A22FA6000D75AC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D045CF4D1A2850B100F2E0F5 /* MainMenuDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuDetailController.h; path = "Controllers/Detail main menu/MainMenuDetailController.h"; sourceTree = "<group>"; };
 		D045CF4E1A2850B100F2E0F5 /* MainMenuDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuDetailController.m; path = "Controllers/Detail main menu/MainMenuDetailController.m"; sourceTree = "<group>"; };
+		D04ECDD51A2AE0DA0012FDC2 /* WeatherDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherDataSource.h; path = DataSource/Weather/WeatherDataSource.h; sourceTree = "<group>"; };
+		D04ECDD61A2AE0DA0012FDC2 /* WeatherDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherDataSource.m; path = DataSource/Weather/WeatherDataSource.m; sourceTree = "<group>"; };
 		D075A6C51A22FCA00086521B /* MainMenuRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuRow.h; path = "Main menu/Model/MainMenuRow.h"; sourceTree = "<group>"; };
 		D075A6C61A22FCA00086521B /* MainMenuRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuRow.m; path = "Main menu/Model/MainMenuRow.m"; sourceTree = "<group>"; };
 		EA69C850EF022517B60D6670 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 		D043EE671A22FA4000D75AC7 /* AppleWatchTests */ = {
 			isa = PBXGroup;
 			children = (
+				D04ECDD41A2AE0AA0012FDC2 /* Data source */,
 				D043EE6C1A22FA4000D75AC7 /* AppDelegate.h */,
 				D043EE6D1A22FA4000D75AC7 /* AppDelegate.m */,
 				D043EE6F1A22FA4000D75AC7 /* ViewController.h */,
@@ -289,6 +294,15 @@
 				D045CF4E1A2850B100F2E0F5 /* MainMenuDetailController.m */,
 			);
 			name = "Detail main menu";
+			sourceTree = "<group>";
+		};
+		D04ECDD41A2AE0AA0012FDC2 /* Data source */ = {
+			isa = PBXGroup;
+			children = (
+				D04ECDD51A2AE0DA0012FDC2 /* WeatherDataSource.h */,
+				D04ECDD61A2AE0DA0012FDC2 /* WeatherDataSource.m */,
+			);
+			name = "Data source";
 			sourceTree = "<group>";
 		};
 		D075A6C81A22FCA80086521B /* Main menu */ = {
@@ -517,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D043EE711A22FA4000D75AC7 /* ViewController.m in Sources */,
+				D04ECDD71A2AE0DA0012FDC2 /* WeatherDataSource.m in Sources */,
 				D043EE6E1A22FA4000D75AC7 /* AppDelegate.m in Sources */,
 				D043EE6B1A22FA4000D75AC7 /* main.m in Sources */,
 			);
@@ -535,6 +550,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D075A6C71A22FCA00086521B /* MainMenuRow.m in Sources */,
+				D04ECDD81A2AE2D90012FDC2 /* WeatherDataSource.m in Sources */,
 				D043EE9F1A22FA5F00D75AC7 /* NotificationController.m in Sources */,
 				D045CF4F1A2850B100F2E0F5 /* MainMenuDetailController.m in Sources */,
 				D0398BCE1A285A6D00CDDB9E /* MainDetail.m in Sources */,
