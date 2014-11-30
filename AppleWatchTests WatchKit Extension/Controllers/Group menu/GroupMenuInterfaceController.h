@@ -9,5 +9,8 @@
 #import <WatchKit/WatchKit.h>
 
 @interface GroupMenuInterfaceController : WKInterfaceController
+- (IBAction)activeCronometer;
+- (IBAction)activeWeather;
+- (IBAction)activeSurf;
 
 @end

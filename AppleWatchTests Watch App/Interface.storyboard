@@ -11,9 +11,21 @@
                 <controller identifier="groupMenu" title="Group menu" id="WLc-bM-Kxk" customClass="GroupMenuInterfaceController">
                     <menu key="menu" id="uJB-yw-6Qr">
                         <items>
-                            <menuItem title="Cronos" image="clock" id="fay-tc-9J0"/>
-                            <menuItem title="Weather" image="summer" id="UaS-D6-PEd"/>
-                            <menuItem title="Surf" image="surf" id="DGd-xI-qI9"/>
+                            <menuItem title="Cronos" image="clock" id="fay-tc-9J0">
+                                <connections>
+                                    <action selector="activeCronometer" destination="WLc-bM-Kxk" id="tbR-Un-xCh"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Weather" image="summer" id="UaS-D6-PEd">
+                                <connections>
+                                    <action selector="activeWeather" destination="WLc-bM-Kxk" id="zW7-WG-Eyr"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Surf" image="surf" id="DGd-xI-qI9">
+                                <connections>
+                                    <action selector="activeSurf" destination="WLc-bM-Kxk" id="Tt7-o2-r1Z"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </controller>

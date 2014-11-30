@@ -35,4 +35,17 @@
 
 
 
+- (IBAction)activeCronometer {
+    
+    NSLog(@"Cronometer actived");
+    
+}
+
+- (IBAction)activeWeather {
+    NSLog(@"Weather actived");
+}
+
+- (IBAction)activeSurf {
+    NSLog(@"Surf actived");
+}
 @end
